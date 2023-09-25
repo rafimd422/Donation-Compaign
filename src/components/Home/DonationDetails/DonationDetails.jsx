@@ -1,9 +1,11 @@
 import { useLoaderData, useParams } from "react-router-dom"
+import { ToastContainer,toast } from "react-toastify"
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
-const DonationDetails = ({pageTitle}) => {
 
+const DonationDetails = () => {
 
 
 const data = useLoaderData()
@@ -12,11 +14,24 @@ const idString = id.slice(1)
 const parsedId = parseInt(idString)
 
 const getData = data.find(idividualData => parsedId === idividualData.id)
-const {picture,title,description,text_button_bg} = getData;
+const {picture,title,description,text_button_bg,price} = getData;
 const style = {
     backgroundColor:text_button_bg
 }
 
+
+const toastify = () => {
+    toast.success(`You're successfully donated ${price}`, {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
+}
 
 
 
@@ -27,7 +42,7 @@ const style = {
 <img src={picture} className="w-full object-contain rounded-lg my-8 mx-auto" />
 <figcaption>
     <div className="absolute bottom-0 backdrop-brightness-50 bg-opacity-50 opacity-100 w-full py-4">
-<button style={style} className=" ms-6 left-6 bottom-4 px-6 py-4 text-xl font-semibold rounded text-white">Donate $290</button>
+<button onClick={toastify} style={style} className=" ms-6 left-6 bottom-4 px-6 py-4 text-xl font-semibold rounded text-white">Donate ${price}</button>
 </div>
 </figcaption>
 </figure>
@@ -38,7 +53,7 @@ const style = {
 <p className="text-justify my-6 mb-24">{description}</p>
 
 </div>
-
+<ToastContainer />
 </>
   )
 }
