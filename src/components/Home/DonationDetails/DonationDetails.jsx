@@ -2,7 +2,10 @@ import { useLoaderData, useParams } from "react-router-dom"
 
 
 
-const DonationDetails = () => {
+const DonationDetails = ({pageTitle}) => {
+
+
+
 const data = useLoaderData()
 const {id} = useParams()
 const idString = id.slice(1)
@@ -13,6 +16,9 @@ const {picture,title,description,text_button_bg} = getData;
 const style = {
     backgroundColor:text_button_bg
 }
+
+
+
 
   return (
 <>
