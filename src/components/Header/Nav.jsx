@@ -11,11 +11,11 @@ const Nav = () => {
 
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
-      <div className="container flex flex-wrap items-center justify-between mx-auto">
+      <div className="container py-2 flex flex-wrap items-center justify-between mx-auto">
         <a href="/" className="flex items-center">
           <img
             src="https://i.ibb.co/Y8YQ3Mq/Logo.png"
-            className="ml-4"
+            className="ml-4 max-w-[70%] -p-6"
             alt="Flowbite Logo"
           />
         </a>
