@@ -43,19 +43,9 @@
         "description": "There are many things that can be done to ensure that everyone has access to better food. Access to nutritious and wholesome food is essential for a healthy and fulfilling life. Governments and organizations can work to improve food security, promote sustainable agriculture, and reduce food deserts. By addressing issues related to food accessibility and affordability, we can ensure that everyone has the opportunity to make healthier food choices. Better food for everyone means improved well-being, reduced health disparities, and a brighter future for all.",
         "price": "$290"
       },
+
       {
         "id": 5,
-        "picture": "https://i.ibb.co/jJnDRjz/Health.png",
-        "title": "Clean water for children",
-        "category": "Health",
-        "category_bg": "rgba(0, 82, 255, 0.20)",
-        "card_bg": "rgba(0, 82, 255, 0.15)",
-        "text_button_bg": "#0052FF",
-        "description": "There are many things that can be done to ensure that all people have access to clean water, especially children. Providing clean and safe drinking water is essential for maintaining good health. Access to clean water helps prevent waterborne diseases and ensures that children can grow and develop without the burden of water-related illnesses. Governments and organizations can invest in clean water infrastructure, improve sanitation facilities, and raise awareness about the importance of water hygiene. Clean water for children is a fundamental right and a crucial step towards a healthier future.",
-        "price": "$290"
-      },
-      {
-        "id": 6,
         "picture": "https://i.ibb.co/TB14rFb/Rectangle-4288.png",
         "title": "Good education",
         "category": "Education",
@@ -66,18 +56,19 @@
         "price": "$290"
       },
       {
-        "id": 7,
-        "picture": "https://i.ibb.co/89WZqgC/Rectangle-4287.png",
-        "title": "Used Clothing Drive",
-        "category": "Clothing",
-        "category_bg": "rgba(121, 194, 63, 0.20)",
-        "card_bg": "rgba(121, 194, 63, 0.15)",
-        "text_button_bg": "#79C23F",
-        "description": "There are many things that can be done to help those in need, especially when it comes to clothing. A used clothing drive is a great way to collect gently worn clothes and provide them to individuals and families who may not have access to suitable clothing. By donating and organizing such drives, we can ensure that clothing is distributed to those who need it most. Used clothing drives promote sustainability and reduce clothing waste. They also foster a sense of community and empathy as people come together to support one another through acts of kindness.",
+        "id": 6,
+        "picture": "https://i.ibb.co/jJnDRjz/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "rgba(0, 82, 255, 0.20)",
+        "card_bg": "rgba(0, 82, 255, 0.15)",
+        "text_button_bg": "#0052FF",
+        "description": "There are many things that can be done to ensure that all people have access to clean water, especially children. Providing clean and safe drinking water is essential for maintaining good health. Access to clean water helps prevent waterborne diseases and ensures that children can grow and develop without the burden of water-related illnesses. Governments and organizations can invest in clean water infrastructure, improve sanitation facilities, and raise awareness about the importance of water hygiene. Clean water for children is a fundamental right and a crucial step towards a healthier future.",
         "price": "$290"
       },
+
       {
-        "id": 8,
+        "id": 7,
         "picture": "https://i.ibb.co/kmDBZTR/Rectangle-4287-2.png",
         "title": "Better Food for Everyone",
         "category": "Food",
@@ -85,6 +76,17 @@
         "card_bg": "rgba(248, 113, 71, 0.15)",
         "text_button_bg": "#F87147",
         "description": "There are many things that can be done to ensure that everyone has access to better food. Access to nutritious and wholesome food is essential for a healthy and fulfilling life. Governments and organizations can work to improve food security, promote sustainable agriculture, and reduce food deserts. By addressing issues related to food accessibility and affordability, we can ensure that everyone has the opportunity to make healthier food choices. Better food for everyone means improved well-being, reduced health disparities, and a brighter future for all.",
+        "price": "$290"
+      },
+      {
+        "id": 8,
+        "picture": "https://i.ibb.co/89WZqgC/Rectangle-4287.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
+        "text_button_bg": "#79C23F",
+        "description": "There are many things that can be done to help those in need, especially when it comes to clothing. A used clothing drive is a great way to collect gently worn clothes and provide them to individuals and families who may not have access to suitable clothing. By donating and organizing such drives, we can ensure that clothing is distributed to those who need it most. Used clothing drives promote sustainability and reduce clothing waste. They also foster a sense of community and empathy as people come together to support one another through acts of kindness.",
         "price": "$290"
       },
       {
