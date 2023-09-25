@@ -1,11 +1,14 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
+import Nav from '../components/Header/Nav'
 
 const Root = () => {
   return (
-    <div>
-      hello world
-    </div>
-  )
+    <>
+<Nav />
+ <Outlet />
+ </>
+ )
 }
 
 export default Root
