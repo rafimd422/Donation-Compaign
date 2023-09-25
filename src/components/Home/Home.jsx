@@ -1,13 +1,20 @@
+import { useState } from 'react'
 import Banner from './Banner'
-import './home.css'
 import CardSection from './CardSection'
+import './home.css'
 
+
+  
 
 const Home = () => {
+const [search, setSearch] = useState('')
+
+console.log(search)
   return (
     <>
-<Banner />
-<CardSection />
+<Banner setSearch={setSearch}/>
+<CardSection searchBox={search} />
+
 </>
   )
 }
