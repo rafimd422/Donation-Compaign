@@ -7,7 +7,6 @@ const Donation = () => {
 
 const [mainData, setMainData] = useState([])
 const [showAll, setShowAll] = useState(true)
-console.log(showAll)
 
     const data = useLoaderData()
  useEffect(()=>{
