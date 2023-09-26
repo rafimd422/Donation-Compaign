@@ -29,7 +29,7 @@ mainData.slice(0,4).map(data => <DonationCard key={data.id} data = {data} />)
 </div>
 <br /> <br />
 <div className='w-full text-center'>
-<button onClick={()=> setShowAll(!showAll)} className={`text-white p-3 bg-green-600 rounded-lg ${showAll === false && 'hidden'}`}>Show All</button>
+<button onClick={()=> setShowAll(!showAll)} className={`text-white p-3 bg-green-600 rounded-lg ${ mainData.length <= 4 || showAll === false ? 'hidden' : '' }`}>Show All</button>
 </div>
 </>
   )

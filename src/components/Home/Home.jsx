@@ -8,8 +8,6 @@ import './home.css'
 
 const Home = () => {
 const [search, setSearch] = useState('')
-
-console.log(search)
   return (
     <>
 <Banner setSearch={setSearch}/>
