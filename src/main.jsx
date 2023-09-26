@@ -8,6 +8,8 @@ import Root from './Routes/Root';
 import Home from './components/Home/Home';
 import DonationDetails from './components/Home/DonationDetails/DonationDetails';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import Statistics from './components/Statistics';
+import Donation from './components/Donation';
 
 
 
@@ -25,6 +27,15 @@ const router = createBrowserRouter([
       path: '/donationDetails/:id',
       element: <DonationDetails />,
       loader:()=>fetch('../donation.json')
+    },
+    {
+      path: '/donation',
+      element: <Donation />,
+      loader:()=>fetch('../donation.json')
+    },
+    {
+      path: '/statistics',
+      element: <Statistics />,
     }
   ]
   },
